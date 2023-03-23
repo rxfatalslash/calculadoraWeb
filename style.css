@@ -69,5 +69,6 @@ body {
     margin-bottom: 5px;
     border-radius: 15px;
     border-color: grey;
+    box-shadow: 2px 2px 0px grey;
     background-color: lightgray;
 }
