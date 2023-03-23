@@ -47,7 +47,7 @@ body {
     width: 250px;
 }
 
-.btn, .operator {
+.btn {
     width: 50px;
     height: 50px;
     margin-bottom: 5px;
@@ -61,4 +61,13 @@ body {
     background-color: lightgray;
     box-shadow: 1.5px 1.5px 0px grey;
     cursor: pointer;
+}
+
+.operator {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border-color: grey;
+    background-color: lightgray;
 }
