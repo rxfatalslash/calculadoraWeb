@@ -22,6 +22,7 @@ body {
     background-color: #393939;
     padding: 5px;
     padding-top: 30px;
+    box-shadow: 7px 7px 10px hsl(240, 0%, 20%);
     border-radius: 10px;
 }
 
@@ -35,7 +36,9 @@ body {
 .screen {
     height: 40px;
     width: 150px;
+    font-family: 'Press Start 2P', cursive;
     margin-bottom: 10px;
+    border: 2px outset grey;
     border-radius: 5px;
     background-color: lightgray;
 }
@@ -50,10 +53,12 @@ body {
     margin-bottom: 5px;
     border-radius: 15px;
     border-color: grey;
+    box-shadow: 2px 2px 0px grey;
     background-color: white;
 }
 
 .btn:hover, .operator:hover {
-    background-color: grey;
+    background-color: lightgray;
+    box-shadow: 1.5px 1.5px 0px grey;
     cursor: pointer;
 }
